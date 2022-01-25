@@ -17,7 +17,7 @@ export default class Template {
 	constructor() {
 		this.defaultTemplate = `
 			<li data-id="{{id}}" class="{{completed}}">
-				<div class="view">
+				<div class="view" id="test">
 					<input class="toggle" type="checkbox" {{checked}}>
 					<label>{{title}}</label>
 					<button class="destroy"></button>
